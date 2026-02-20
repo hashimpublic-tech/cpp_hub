@@ -5,7 +5,7 @@ int main(){
     
 
     for( int i=0 ; i<n ; i++ ){
-        char ch = 'a' ;
+        char ch = 'a' ;      // ch will start again from  ' a  '
         for ( int j=0 ; j<n ; j++){
             cout << ch << " " ;
             ch++ ;
