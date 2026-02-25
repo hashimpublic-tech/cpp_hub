@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std ;
 int main(){
-    bool isPrime = false ;
+    bool isPrime = false  ;
 
     int n = 10 ;
 
@@ -11,10 +11,12 @@ int main(){
             break ;
         }
     }
+
     if ( isPrime == true ){
         cout << "\n number is non prime : " << endl;
     } else {
         cout << "\n number is  prime : " << endl;
     }
     return 0 ;
+
 }

@@ -12,7 +12,7 @@ int main(){
         }
         cout << endl;
     }
-    cout << " num after patteren : " << num << endl;
+    cout << " num after patteren : " << num << endl; // 10 
     return 0 ;
 
 

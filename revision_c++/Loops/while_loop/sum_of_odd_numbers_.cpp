@@ -9,9 +9,9 @@ int main(){
         if( i % 2 != 0 ) {
             sum += i ;
         }
-        i++ ;
-        
+        i++ ;  
     }
     cout << sum << endl;
+    
     return 0 ;
 }

@@ -6,7 +6,7 @@ int sum = 0 ;
 float average = 0  ;
 
 for( int i=0 ; i<5 ; i++ ){
-    cout << "\nenter subject " << i+1 << " marks : " ;
+    cout << "enter subject " << i+1 << " marks : " ;
     cin >> array[i] ;
 
     sum+=array[i] ;

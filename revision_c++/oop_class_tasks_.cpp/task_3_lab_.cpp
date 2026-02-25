@@ -7,6 +7,7 @@ int main(){
         cout << " enter  number : " ;
         cin >> array[i] ;  
     }
+    
     cout << "\n" ;
 
     for( int i=0 ;i<5 ; i++ ){

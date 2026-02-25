@@ -13,6 +13,7 @@ int main(){
     cout << calSum(5) << endl;
     cout << calSum(6) << endl;
     cout << calSum(7) << endl;
-    cout << calSum(10) << endl;
+    cout << calSum(10)<< endl;
+
     return 0 ;
 }

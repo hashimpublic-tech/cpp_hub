@@ -7,8 +7,8 @@ int main(){
         char ch = 'A' ;
         for( int j=0 ; j<n ; j++ ){
             cout << ch << " " ;
-            ch++ ;
-        }
+            ch++ ;      // ch = ch + 1 => B
+        }               // 65 = 65 + 1 => 66 
         cout << endl;
     }
     return 0 ;
