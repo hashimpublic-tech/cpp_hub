@@ -8,11 +8,11 @@ int maxRow( int array[][5] , int row , int colum  ){
         for( int j=0 ; j<colum ; j++)
         {
             rowSum+=array[i][j];
-            // if( rowSum > sum  ){
-            //     sum = rowSum ;
-            // }
+            if( rowSum > sum  ){           
+                sum = rowSum ;
+            }
         }
-        sum = max( rowSum , sum);
+        //sum = max( rowSum , sum);   <--- we can also compare them like this .
     }
     return sum ;
 }

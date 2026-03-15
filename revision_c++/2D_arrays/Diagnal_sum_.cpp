@@ -7,7 +7,7 @@ int diagnalSum( int array[][4] , int row , int colum ){
         for( int j=0 ; j<colum ; j++){
             if( i==j){
                 diagSum += array[i][j];
-            } else if ( i+j == colum-1 ){
+            } else if ( j == colum-1 - i ){
                 diagSum += array[i][j] ;
             }
         }
