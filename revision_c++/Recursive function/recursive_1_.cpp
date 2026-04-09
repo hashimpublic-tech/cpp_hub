@@ -11,4 +11,6 @@ int print(int n){
 }
 int main(){
     cout << print(10);
+    return 0 ;
+    
 }

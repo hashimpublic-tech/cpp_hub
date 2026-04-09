@@ -25,18 +25,19 @@ int main(){
 
     book b[2];
     for( int i=0 ; i<2 ; i++ ){
+
         cout << "Enter data for book " << i+1 << endl;
 
         cout << "Enter Book Name : " ;
         getline(cin >> ws , b[i].name) ;
 
-        cout << "Enter Name : " ;
+        cout << "Enter price : " ;
         cin >>  b[i].price ;
 
-        system("cls");
+        system("cls") ;
 
     }
-    function(b);
+    function(b) ;
 
     return 0 ;
 }
